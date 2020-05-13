@@ -1,6 +1,6 @@
 {
   "name": "@theankur/phonegap-plugin-media-recorder",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Phonegap Media Recorder Plugin",
   "cordova": {
     "id": "phonegap-plugin-media-recorder",
