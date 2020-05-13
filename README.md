@@ -32,6 +32,11 @@ phonegap plugin add phonegap-plugin-media-recorder
 phonegap plugin add https://github.com/phonegap/phonegap-plugin-media-recorder.git
 ```
 
+All I did is released package with latest changes to get rid of cordova file plugin support error.
+```
+phonegap/cordova plugin add @theankur/phonegap-plugin-media-recorder
+```
+
 ## MediaRecorder Constructor
 
 The MediaRecorder constructor uses the mediastream track obtained by using the phonegap-plugin-media-stream to create an object. An optional parameter for mimeType can also be passed.In iOS, the current suppported mimeTypes for mediaRecorder are : audio/m4a, audio/wav and video/quicktime. If options parameter is not passed the recording continues with default formats ( audio/m4a for audio recording and video/quicktime for video recording).
