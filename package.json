@@ -1,6 +1,6 @@
 {
-  "name": "phonegap-plugin-media-recorder",
-  "version": "1.1.0",
+  "name": "@theankur/phonegap-plugin-media-recorder",
+  "version": "1.2.0",
   "description": "Phonegap Media Recorder Plugin",
   "cordova": {
     "id": "phonegap-plugin-media-recorder",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phonegap/phonegap-plugin-media-recorder"
+    "url": "https://github.com/TheAnkurPanchani/phonegap-plugin-media-recorder"
   },
   "bugs": {
-    "url": "https://github.com/phonegap/phonegap-plugin-media-recorder/issues"
+    "url": "https://github.com/TheAnkurPanchani/phonegap-plugin-media-recorder/issues"
   },
   "keywords": [
     "cordova",
@@ -32,7 +32,7 @@
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
-      "1.2.0":{
+      "1.2.0": {
         "cordova": ">=7.1.0",
         "cordova-android": ">=6.3.0"
       },
@@ -54,5 +54,8 @@
   },
   "dependencies": {
     "eslint": "^4.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
